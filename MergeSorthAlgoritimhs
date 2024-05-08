@@ -6,3 +6,8 @@ one more --> [16] - [21] - [11] - [8] - [12] - [22]
 start the merge sorting --> pick 16 and swap 11 --> pick 21 and swap 16 --> result: [11,16,21] - [8] - [12] - [22]
 8 ,12, 22 already in order --> [11,16,21] - [8,12,22]
 pick 8 and swap 11 --> pick 11 swap 16 --> pick 12 swap 21 --> result: [8,11,12,16,21,22]
+
+
+Big O
+
+O(n log (n))
